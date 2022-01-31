@@ -1,0 +1,66 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+.body-content {
+    display: flex;
+    padding: 10px;
+}
+
+.search-screen-container {
+    padding-left: 10px;
+}
+
+table th, td {
+    padding: 7px;
+}
+
+.searchByCityScreen,
+.searchByIpResultsSection, .searchByIpErrorSection,
+.searchByCityResultsSection, .searchByCityErrorSection {
+    display: none;
+}
+
+.searchByIpErrorSection, .searchByCityErrorSection {
+    color: red;
+}
+
+.vertical-menu {
+    padding-bottom: 15px;
+    max-width: 200px;
+}
+
+    .vertical-menu a {
+        background-color: #eee;
+        color: black;
+        display: block;
+        padding: 7px;
+        text-decoration: none;
+    }
+
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+
+        .vertical-menu a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+.search-form {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+    .search-form button {
+        margin-left: 5px;
+    }
+
+    .search-form .searchByIpInput {
+        width: auto;
+    }
+
+    .search-form .searchByCityInput {
+        width: 300px;
+    }

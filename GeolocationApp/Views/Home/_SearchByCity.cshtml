@@ -1,0 +1,37 @@
+﻿<div>
+    <div class="search-form">
+        <input class="searchByCityInput form-control" maxlength="24">
+        <button class="searchByCityButton btn btn-warning">Искать</button>
+    </div>
+
+    <section class="searchByCityResultsSection">
+        <table>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>Страна</th>
+                    <th>Область</th>
+                    <th>Индекс</th>
+                    <th>Организация</th>
+                    <th>Широта</th>
+                    <th>Долгота</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    <section class="searchByCityErrorSection"></section>
+
+    <script class="resultsRowTemplate" type="text/template">
+        <tr>
+            <td class="counter"></td>
+            <td class="country"></td>
+            <td class="region"></td>
+            <td class="postal"></td>
+            <td class="organization"></td>
+            <td class="latitude"></td>
+            <td class="longitude"></td>
+        </tr>
+    </script>
+
+</div>
